@@ -1,0 +1,35 @@
+.RegisterForm {
+  width: 230px;
+  margin: 5% auto;
+}
+
+.action {
+  text-align: center;
+}
+
+.btnSubmit {
+  margin-top: 10px;
+  padding: 10px;
+  background: lightseagreen;
+  border: 1px solid lightseagreen;
+  color: white;
+  border-radius: 3.5px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all ease-out 300ms;
+}
+
+.btnSubmit:disabled {
+  background: lightblue;
+  border: 1px solid lightblue;
+}
+
+.btnSubmit:disabled:hover {
+  border: 1px solid red;
+  background: red;
+}
+
+.btnSubmit:hover {
+  border: 1px solid seagreen;
+  background: seagreen;
+}

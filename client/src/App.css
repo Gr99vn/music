@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 60px; */
+}
+
+.brandLogo {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.greeting {
+  text-align: left;
+}
+
+.userDropdown {
+  position: relative;
+  padding: 20px 0;
+}
+
+.userDropdown:hover .dropdownContent{
+  display: block;
+}
+
+.dropdownContent {
+  position: absolute;
+  width: 100%;
+  top: 45px;
+  display: none;
+  background-color: #eee;
+  z-index: 1;
+}
+
+.dropdownContent a:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.dropdownContent a {
+  display: block;
+  border-bottom: 1px solid gray;
+  padding: 5px 10px;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  
+}
+
+nav .navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav .navbar .navItem {
+  margin-right: 10px;
+}

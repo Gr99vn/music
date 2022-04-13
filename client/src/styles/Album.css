@@ -1,0 +1,40 @@
+.Album {
+  padding: 0 40px;
+}
+
+.Album .header {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.albumInfo {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.albumInfo p {
+  margin-bottom: 0;
+}
+
+table { 
+  border-collapse: collapse; 
+}
+
+tr {
+  border-bottom: 1px solid #eee;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
