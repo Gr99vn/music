@@ -18,6 +18,26 @@
   margin-bottom: 0;
 }
 
+.btnClose {
+  background: red;
+  padding: 10px 15px;
+  width: 80px;
+  border: 1px solid red;
+  font-size: 1rem;
+  color: #eee;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: all ease-out 500ms;
+}
+
+.btnClose:hover {
+  background: crimson;
+}
+
+.trackName {
+  width: 400px;
+}
+
 table { 
   border-collapse: collapse; 
 }

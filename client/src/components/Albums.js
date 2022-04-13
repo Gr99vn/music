@@ -62,7 +62,7 @@ function Albums() {
       <div className="Albums">
         <VerticalMenu albums={albums} />
         <hr />
-        {album && album.id && <Album album={album} />}
+        {albumId && album && album.id && <Album album={album} />}
       </div>
     );
   }
